@@ -15,9 +15,31 @@ Fazit: Apple Geräte haben kein Problem, auf allen anderen Geräten muss man ein
 
 Im folgenden verwende ich "Du" wenn ein Familienmitglied etwas machen muss.
 
-1. Alle Familienmitglieder müssen sich bei https://account.apple.de/ ein Konto anlegen. Dein Land oder Sprache kannst du auf der Seite unten rechts auswählen. Dafür brauchst du deine alte email Adresse und eine Handynummer. Diese Anmeldung sogt auch dafür, dass due ein Passwort vergibst und dass bei jeder Anmeldung das Passwort und dein Handy da sein müssen.
-2. Dann musst du dich auf https://icloud.com/mail unter Einstellungen (einem kleine Zahnrad) eine icloud email aussuchen. Diese brauchen wir spöter um deine richtige email abzurufen.
-3. Wenn du das alles gemacht hast teile deine alte email (die auf icloud übertragen werden soll, demjenigen mit, der das Familienkonto für alle betreiben (und auch bezahlen) soll - zum Beispiel beate@mueller.de.
-4. Beate, die natürlich auch ein Apple Konto braucht, muss spätestens jetzt einen icloud plus vertrag abschliessen. Nur dann kann eine eigene domäne genutzt oder gekauft werden. Diesen gibts schon ab 1€ im Monat.
-5. Dann lädt Beate alle Familienmitglieder in ihre Familie ein. Maximal 6 insgesamt mit Beate.
-6. Dann 
+1. Alle Familienmitglieder müssen sich bei https://icloud.com/ ein Konto anlegen. Dafür auf "Anmelden" und dann auf "Neues Konto anlegen" drücken. Dafür brauchst du deine alte email Adresse und eine Handynummer. Diese Anmeldung sorgt auch dafür, dass du ein Passwort vergibst und dass bei jeder Anmeldung das Passwort und dein Handy da sein müssen.
+2. Dann musst du dich mit diesem Konto einmalig auf einem ipad oder iphone oder einem Mac anmelden und wieder abmelden. Dadurch wird dein icloud konto von einem web konto auf ein vollwertiges upgegraded das auch icloud email enthält.
+3. Dann wieder bei https://icloud.com/mail anmelden und eine icloud email adresse aussuchen - zum Beispiel lina.mueller@icloud.com .
+4. Wenn du das alles gemacht hast teile deine alte email (die auf icloud übertragen werden soll, demjenigen mit, der das Familienkonto für alle betreiben (und auch bezahlen) soll - zum Beispiel beate@mueller.de.
+5. Beate, die natürlich auch ein Apple Konto braucht, muss spätestens jetzt einen icloud plus vertrag abschliessen. Nur dann kann eine eigene domäne genutzt oder gekauft werden. Diesen gibts schon ab 1€ im Monat. Ausserdem muss sie die domäne müller.de auf icloud nutzen kann (details tbd) aber emails an die domäne weiterhin bei den nutzern auf dem alten Weg ankommt.
+6. Dann lädt Beate alle Familienmitglieder in ihre Familie ein. Dies kann sie nicht auf icloud.com machen sondern nur auf einem apple Gerät. Sie kann entweder die Einladung per SMS schicken oder die Person bitten sich kurz anzumelden. Maximal 6 Familienmitglieder insgesamt mit Beate können der Familie beitreten.
+7. Dann musst du die Einladung, die dir per SMS oder whatsapp geschickt wurde annehmen.
+8. Dann kannst du auf https://www.icloud.com/icloudplus gehen und dir unter mueller.de eine eigene email adress anlegen - zum beispiel lina@mueller.de
+9. Wenn du ein Apple Gerät hast dann kanns du auf diesem die Mail app nutzen um deine email dort zu lesen. Du kannst auch alle emails durchsuchen und emails als lina@mueller.de verschicken
+10. Wenn du ein Android oder ein Windows Gerät hast ist noch ein weiterer Schritt nötig, um deine email einfach lesen und schreiben zu könnnen.
+11. Du musst auf https://account.apple.com/account/manage/section/security erst mal ein app-spezifisches passwort anlegen. Dieses aufschreiben oder anders merken.
+12. Dann thunderbird auf android oder windows runterladen. Auf android aus dem play store und auf windows von https://www.thunderbird.net/
+13. Nach der Installation musst du folgendes eingeben für IMAP (um email abrufen zu können):
+- lina.mueller@icloud.com
+- <dein persönliches app passwort>
+- imap.mail.me.com
+- 993
+- ssl/tls
+14. Und für SMTP folgendes (um email senden zu können):
+- lina.mueller@icloud.com
+- <dein persönliches app passwort>
+- smtp.mail.me.com
+- 587
+- starttls
+15. jetzt kann beate die dns einträge der domäne so umschiessen, dass die email bei iclud bei den familienmitgliedern landet (details tbd)
+16. Solltest du deine email woanders hinleiten wollen (zum beispiel zu gmail) kannst du das selbst unter https://icloud.com/mail einrichten.
+17. Um diene alten emails von gmail zu icloud zu übertragen (um zum beispiel nicht mehr bei gmil daüfr bezahlen zu müssen) nutze imap in apple mail oder thunderbird um auf dein altes konto per imap zuzugreifen und übertrage deine alte email in grösseren blöcken vom alten ins neue postfach (details tbd).
+18. Falls du dein icloud passwort änderst musst du auch dein app passwort neu erzeugen und eintragen.
